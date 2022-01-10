@@ -1,6 +1,7 @@
 class test{
+int[] name="ritesh";
  public static void main(){
-  for(int i=0;i<10;i++){
+  for(int i=0;i<name.length;i++){
    system.out.println("%d",i);
 }
  }
